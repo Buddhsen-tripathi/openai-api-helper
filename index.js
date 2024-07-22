@@ -1,8 +1,8 @@
 const axios = require('axios');
 
-class OpenAIHelper {
+class OpenAIAPIHelper {
     /**
-     * Creates an instance of OpenAIHelper.
+     * Creates an instance of OpenAIAPIHelper.
      * @param {string} apiKey - Your OpenAI API key.
      */
     constructor(apiKey) {
@@ -46,4 +46,4 @@ class OpenAIHelper {
     }
 }
 
-module.exports = OpenAIHelper;
+module.exports = OpenAIAPIHelper;

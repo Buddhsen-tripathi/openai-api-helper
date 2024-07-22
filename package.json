@@ -1,5 +1,5 @@
 {
-  "name": "openai-helper",
+  "name": "openai-api-helper",
   "version": "1.0.0",
   "description": "A simple helper for calling the OpenAI API",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/buddhsen-tripathi/openai-helper.git"
+    "url": "https://github.com/buddhsen-tripathi/openai-api-helper.git"
   },
   "keywords": [
     "openai",
@@ -20,6 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
-    "openai-helper": "^1.0.1"
+    "openai-api-helper": "^1.0.0"
   }
 }
