@@ -1,0 +1,24 @@
+{
+  "name": "openai-helper",
+  "version": "1.0.0",
+  "description": "A simple helper for calling the OpenAI API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/openai-helper.git"
+  },
+  "keywords": [
+    "openai",
+    "api",
+    "helper",
+    "gpt"
+  ],
+  "author": "Buddhsen Tripathi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
