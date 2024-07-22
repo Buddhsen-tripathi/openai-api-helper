@@ -26,7 +26,6 @@ async function main() {
 
     try {
         const response = await openai.call(model, prompt, 0.8,1);
-        const message = response.choices[0].message.content;
         console.log('Response from OpenAI:', message);
     } catch (error) {
         console.error('Error:', error);
