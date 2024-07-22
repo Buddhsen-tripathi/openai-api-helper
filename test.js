@@ -2,8 +2,8 @@ const OpenAIHelper = require('openai-helper');
 
 async function main() {
     const apiKey = 'YOUR-OPENAI-AI-KEY';
-    const model = 'gpt-4o-mini';
-    const prompt = 'Your-prompt';
+    const model = 'GPT_MODEL';
+    const prompt = 'YOUR_PROMPT';
 
     const openai = new OpenAIHelper(apiKey);
 

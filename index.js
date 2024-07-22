@@ -15,11 +15,11 @@ class OpenAIHelper {
      *
      * @param {string} model - The GPT model to use.
      * @param {string} prompt - The prompt to send to the model.
-     * @param {number} [temperature=0.7] - The sampling temperature to use.
-     * @param {resultType} - The type of result expected
+     * @param {number} [temperature=0.7] - (optional) The sampling temperature to use.
+     * @param {resultType} [resultType = 1] - (optional) The type of result expected (0) for complete JSON response, (1) for output message string.
      * @returns {response} - The JSON response from the OpenAI API.
      */
-    async call(model, prompt, temperature = 0.7, resultType) {
+    async call(model, prompt, temperature = 0.7, resultType = 1) {
         try {
             const response = await axios.post(
                 this.baseUrl,

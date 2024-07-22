@@ -1,6 +1,6 @@
 {
   "name": "openai-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple helper for calling the OpenAI API",
   "main": "index.js",
   "scripts": {

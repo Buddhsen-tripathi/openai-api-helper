@@ -49,7 +49,7 @@ You can find a sample usage file in the repository for testing purposes:</br>
 `test.js`: Contains example code demonstrating how to use the openai-helper library.</br>
 
 ## License
-This project does not currently have a license. Please use the code responsibly and check for licensing requirements before using or distributing it.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit pull requests or open issues to suggest improvements. Ensure that your code follows the project's coding standards and includes appropriate tests.
