@@ -15,7 +15,7 @@ npm install openai-api-helper
 Basic Example
 Here’s how to use openai-api-helper to interact with the OpenAI API:
 ```javascript
-const OpenAIAPIHelper = require('openai-api-helper');
+const OpenAIAPIHelper = require('openai-api-helper').default;
 
 async function main() {
     const apiKey = 'YOUR_OPENAI_API_KEY';
