@@ -1,4 +1,4 @@
-# openai-api-helper@1.1.1
+# openai-api-helper
 
 `openai-api-helper` is a user-friendly library designed to simplify interactions with the OpenAI API.<br /> With minimal setup, you can start making requests to OpenAI's chat completions endpoint quickly and easily. This package provides a straightforward way to integrate OpenAI's powerful language models into your applications with just a few lines of code.
 
