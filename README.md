@@ -34,6 +34,27 @@ async function main() {
 
 main();
 ```
+```typescript
+// index.ts
+import OpenAIAPIHelper from 'openai-api-helper';
+
+const apiKey = 'YOUR_OPENAI_API_KEY';
+const openai = new OpenAIAPIHelper(apiKey);
+
+async function test() {
+    const model = 'GPT_MODEL';
+    const prompt = 'YOUR_PROMPT';
+    
+    try {
+        const response = await openai.call(model, prompt, 0.7, 1);
+        console.log('Response from OpenAI:', response);
+    } catch (error) {
+        console.error('Error calling OpenAI API:', error);
+    }
+}
+
+test();
+```
 
 ## Call Method
 The call method sends a request to the OpenAI API and returns the response.
@@ -45,7 +66,8 @@ responseType (optional): Format your response json. (0 for complete json respons
 
 ## Testing
 You can find a sample usage file in the repository for testing purposes:</br>
-`test.js`: Contains example code demonstrating how to use the openai-api-helper library.</br>
+`test.js`: Contains example JavaScript code demonstrating how to use the openai-api-helper library.</br>
+`test.ts`: Contains example TypeScript code demonstrating how to use the openai-api-helper library.</br>
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
