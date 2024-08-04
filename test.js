@@ -1,4 +1,4 @@
-const OpenAIAPIHelper = require('openai-api-helper');
+const OpenAIAPIHelper = require('openai-api-helper').default;
 
 async function main() {
     const apiKey = 'YOUR-OPENAI-AI-KEY';
