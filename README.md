@@ -65,7 +65,7 @@ temperature (optional): Adjust the randomness of the response (default is 0.7).<
 responseType (optional): Format your response json. (0 for complete json response, 1 for message string reponse. default is 1)<br />
 
 ## Testing
-You can find a sample usage file in the repository for testing purposes:</br>
+You can find a sample usage files in the repository (test dir) for testing purposes:</br>
 `test.js`: Contains example JavaScript code demonstrating how to use the openai-api-helper library.</br>
 `test.ts`: Contains example TypeScript code demonstrating how to use the openai-api-helper library.</br>
 
