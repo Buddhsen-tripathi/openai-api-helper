@@ -56,6 +56,10 @@ async function test() {
 test();
 ```
 
+## PromptBuilder (beta)
+Added a PromptBuilder class that allows users to build their prompts efficiently. </br>
+It includes options for adding background, context, instructions, and examples combined with user input. Check out test files for reference.
+
 ## Call Method
 The call method sends a request to the OpenAI API and returns the response.
 
