@@ -1,4 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
+export{ PromptBuilder } from './promptBuilder'
 
 interface OpenAIAPIResponse {
     choices: { message: { content: string } }[];

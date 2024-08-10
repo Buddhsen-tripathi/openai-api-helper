@@ -12,7 +12,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.PromptBuilder = void 0;
 const axios_1 = __importDefault(require("axios"));
+var promptBuilder_1 = require("./promptBuilder");
+Object.defineProperty(exports, "PromptBuilder", { enumerable: true, get: function () { return promptBuilder_1.PromptBuilder; } });
 class OpenAIAPIHelper {
     /**
      * Creates an instance of OpenAIAPIHelper.
