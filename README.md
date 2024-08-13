@@ -142,7 +142,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
-
 1. Fork the repository
 2. Create a new branch: `git checkout -b feature-branch-name`
 3. Make your changes and commit them: `git commit -m 'Add some feature'`
