@@ -3,7 +3,7 @@ name: Generate and Deploy Documentation
 on:
   push:
     branches:
-      - release # Trigger the workflow on push to the main branch
+      - main # Trigger the workflow on push to the main branch
 
 jobs:
   build:
