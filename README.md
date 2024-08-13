@@ -9,6 +9,10 @@
 - **Flexible Response Handling**: Choose between complete JSON responses or simplified message string outputs.
 - **PromptBuilder (Beta)**: Efficiently construct prompts with background, context, instructions, and examples.
 
+## Documentation
+
+Click here for <a href = "https://buddhsen-tripathi.github.io/openai-api-helper/"> Documentation</a>
+
 ## Installation
 
 Install `openai-api-helper` using npm:
