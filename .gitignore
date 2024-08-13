@@ -1,7 +1,0 @@
-#Ignore node_modules
-node_modules
-
-tsconfig.json
-package-lock.json
-.npmignore
-docs/
